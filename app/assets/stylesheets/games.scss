@@ -1,0 +1,54 @@
+#container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 200px auto;
+  font-size: 50px;
+  align-items: center;
+}
+
+.letter-box {
+  border: 1px solid black;
+  height: 90px;
+  width: 90px;
+  background-color: rgb(52,152,219);
+  color: whitesmoke;
+  text-align: center;
+  line-height: 90px;
+  box-shadow: 1px 1px 1px black;
+}
+
+#form {
+  position: relative;
+  left: 20px;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+  height: 50px;
+}
+
+#form #entry-box {
+  width: 80%;
+  height: 40px;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+#form #play-btn {
+  width: 15%;
+  height: 46px;
+  font-size: 30px;
+  position: relative;
+  top: 0px;
+  left: -7px;
+  background-color: rgb(64,64,64);
+  color: antiquewhite;
+}
+
+#message {
+  width: 30%;
+  font-size: 20px;
+  position: relative;
+  left: 160px;
+  bottom: 90px;
+}
